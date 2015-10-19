@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/question_saisie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/saisir_question" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question_saisie"
+            android:layout_alignParentStart="true"
+            android:id="@+id/reponse_saisie"
+            android:text="@string/saisir_reponse"
+            android:layout_margin="5dp"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/reponse_saisie"
+            android:layout_alignParentStart="true"
+            android:id="@+id/radio_groupe_reponse">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vrai"
+                android:id="@+id/radioButton_vrai"
+                android:checked="true"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faux"
+                android:id="@+id/radioButton_faux"
+                android:layout_alignParentStart="true" />/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_ajouter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvQuestions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

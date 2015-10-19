@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quizz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="vrai">Vrai</string>
+    <string name="faux">Faux</string>
+    <string name="suivante">Suivante</string>
+    <string name="reponse">Réponse</string>
+    <string name="verification">Etes-vous sur de vouloir le faire ?</string>
+    <string name="voirReponse">Montrez la réponse !</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="reponseVue">Vous avez vu la réponse</string>
+    
+    <string name="button_gestion">Gérer les questions</string>
+    <string name="button_jouer">Jouer le quizz</string>
+    <string name="saisir_reponse">Choisir une réponse</string>
+    <string name="saisir_question">Saisir votre question</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_annul">Annuler</string>
+
+    <string name="alert_delete_titre">vous etes sur le point de supprimer la question</string>
+
+</resources>
